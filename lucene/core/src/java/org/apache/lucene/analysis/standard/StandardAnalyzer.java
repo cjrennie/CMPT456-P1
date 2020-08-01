@@ -35,7 +35,6 @@ import org.apache.lucene.analysis.WordlistLoader;
  * English stop words.
  */
 public final class StandardAnalyzer extends StopwordAnalyzerBase {
-
   /** An unmodifiable set containing some common English words that are not usually useful
   for searching.*/
   public static final CharArraySet ENGLISH_STOP_WORDS_SET;
